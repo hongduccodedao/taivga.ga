@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20 px;
+    color: #05386b;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg,rgb(160, 160, 253), rgb(48, 48, 231));
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 250%;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 200%;
+    font-weight: 300;
+}
+.p-text {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+.picture {
+    position: relative;
+}
+
+.picture img {
+    width: 200px;
+    border: 1px #d4d4d4 solid;
+    padding: 2px;
+    border-radius:50%;
+    margin-left: 80px;
+    margin-top: 50px;
+    transition: all .3s;
+}
+
+.picture img:hover,
+.picture img:active{
+    transform: scale(1.2);
+}
+
+.p1 {
+    position: relative;
+    margin-top: 30px;
+    top: 50%;
+   left: 15%;
+   font-weight: 600;
+   font-size: 130%;
+}
+
+.btn {
+    text-decoration: none;
+    color:#05386b;
+    background-color: #a0a0fd;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 0 5px;
+    width: 130px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 20px;
+    transition: all 2.5s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #3030e7;
+}
+
+.p-link {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.p-link a {
+    color: #3030e7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 110%;
+    font-weight: 400;
+    background-image: linear-gradient(90deg,rgb(160, 160, 253), rgb(48, 48, 231));
+    color: white;
+    padding: 30px;
+}
+
+footer a {
+    color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
